@@ -1,0 +1,234 @@
+/* 
+    Document   : style
+    Created on : Jun 6, 2013, 8:35:20 PM
+    Author     : Tony Flemings
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Global styles */
+html, body, head, footer{
+    color:#1C0C05;
+    background-color:#FFE8C7;
+    font-weight:bold;
+    margin:0px;
+    margin-left:10px;
+    padding:0px;
+    font-family:"Lucida Grande","Lucida Sans Unicode";
+}
+
+.button{
+    width: 100px;
+    height: 25px;
+    background-color: #FF9900;
+    float: right;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Header */
+#header{
+    height: 100px;
+    width: 100%;
+}
+
+/* Main Menu */
+#menu ul{
+    list-style:none;
+    display:block;
+}
+
+#menu{
+    float:left;
+    width:100%;
+    /*display:block;*/
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Arial;
+    font-size:14px;
+    background:#eea934                     /*#008B3E;   #2f8be8;*/
+    /*margin-top:100px;*/
+}
+
+#menu > li {
+    float:left;
+    color:#fff;
+    font-weight:bold;
+}
+
+#menu li a{
+    display:block;
+    height:2em;
+    line-height:2em;
+    padding:0 1.5em;
+    text-decoration:none;
+}
+
+#menu ul{
+    position:absolute;
+    display:none;
+    z-index:999;
+}
+
+#menu ul li a{
+    width:200px;
+}
+
+#menu li:hover ul.noJS{
+    display:block;
+}
+
+#menu > a{
+    color:#fff;
+    font-weight:bold;
+}
+
+#menu > li:hover > a{
+    background:#000;     /*#001F00;     #f09d28;*/
+    color:#fff;
+}
+
+#menu ul{
+    background:#001F00;     /*#f09d28;*/
+    color:#000;
+}
+
+#menu ul li a{
+    color:#fff;
+}
+
+#menu ul li:hover a{
+    background:#D8D8D8;     /*#ffc97c;*/
+    color:#000;
+}
+
+/* Tables */
+.product_summary{
+    width: 800px;
+    border: 1px solid red;
+}
+
+/* Main Container */
+#wrapper{
+    background-color: #FFFFFF;
+    width:800px;
+    height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    overflow: scroll;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#container{
+    width: 100%;
+    border: 1px solid blue;
+    background-color: #FFFFFF;
+}
+
+/* Item Details */
+#details-container{
+    width: 406px;
+    /*height: 278px;*/
+    border: 1px solid orange;
+    margin: auto;
+}
+
+#details-container label{
+    width: 406px;
+    height: 25px;
+    text-align: center;
+}
+
+#details-container button{
+    width: 100px;
+    height: 25px;
+    background-color: #FF9900;
+}
+
+/* Shopping Cart*/
+#cart{
+    border: 1px solid orchid;
+    width: 720px;
+    margin: auto;
+}
+
+#cart .name{
+    width: 390px;
+    text-align: left;
+}
+
+#cart .price .qty .remove{
+    width: 110px;
+    text-align: right;
+}
+
+#cart .qty input{
+    width: 50px;
+}
+
+#cart #form-link{
+    text-align: right;
+}
+
+/* Order Form */
+#order{
+    border: 1px solid yellowgreen;
+    width: 720px;
+    margin: auto;
+}
+
+#order .name{
+    width: 390px;
+}
+
+#order .price .qty .total{
+    width: 110px;
+}
+
+#order .qty input{
+    width: 50px;
+}
+
+/* Login Form */
+#login{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#login fieldset{
+    border: 1px solid green;
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+#login .input label{
+    width: 200px;
+}
+
+/* Account */
+#account{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    border: 1px solid green;
+}
+
+#account fieldset{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+
+
+
+
